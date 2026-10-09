@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.hypothesis/
+*.egg-info/
+build/
+dist/
+
+# Kişisel veri asla depoya girmez. Defter varsayılan olarak depo dışında
+# (~/.local/share/hane-finans/) tutulur; bunlar yanlışlıkla buraya
+# kopyalanırsa diye ikinci bir güvenlik ağıdır.
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-wal
+kisisel/
+yedek/
+cikti/
+.env
+ayarlar.toml
